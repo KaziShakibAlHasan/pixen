@@ -34,11 +34,11 @@ const Navbar = () => {
         </ul>
 
         <div className="flex gap-4">
-          <ul className="flex items-center  text-sm">
-            <li>
+          <ul className="flex items-center  text-sm gap-2">
+            <li >
               <Link href={"/signup"}>SignUp</Link>
             </li>
-            <li>
+            <li className="ml-2">
               <Link href={"/signin"}>SignIn</Link>
             </li>
           </ul>
